@@ -154,6 +154,7 @@ cat .git/HEAD (shows file location of HEAD)
 	git branch -m <branch_name> <new_branch_name> ->> changes the name of the branch
 	git branch -d <branch_name> ->> Deletes the branch (does a check for stupidity)
 	git branch -D <branch_name> ->> Force deleting the branch without any checks
+	git push origin --delete <branch Name> ->> Deletes branch on remote repository
 	
 ## Merging branches
 	git merge <branch_name> --> merges the branch into current branch
